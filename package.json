@@ -1,0 +1,22 @@
+{
+  "name": "simple-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "watch": "node-sass -w main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreykhtman/simple-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreykhtman/simple-starter/issues"
+  },
+  "homepage": "https://github.com/dreykhtman/simple-starter#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
