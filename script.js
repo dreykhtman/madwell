@@ -1,17 +1,7 @@
-// fetch('https://api.imgflip.com/get_memes', {
-//   method: 'GET',
-// })
-//   .then((response) => {
-//     console.log(response.json());
-//   })
-//   .catch((err) => {
-//     console.error(err);
-//   });
-
 async function getData() {
   const response = await fetch(
-    // 'https://jsonplaceholder.typicode.com/photos?_limit=15'
-    'https://www.madwell.com/interview/index.php?f=data'
+    'https://jsonplaceholder.typicode.com/photos?_limit=15'
+    // 'https://www.madwell.com/interview/index.php?f=data'
   );
 
   if (!response.ok) {
@@ -23,25 +13,17 @@ async function getData() {
   const gallery = document.getElementById('gallery');
 
   data.forEach((image) => {
-    // const img = document.createElement('img');
-    // img.classList.add('image');
-    // img.setAttribute('src', image.url);
-    // gallery.append(img);
-
     const html = `
-      <img
-      class="image"
-      src="${image.path}"
-      alt="${image.alt}"
-      ${image.caption ? `data-caption=${image.caption}` : ''}
-      >
+      <figure>
+        <img class="image" src="${image.url}" alt="${image.alt}" />
+        ${image.caption ? `<figcaption>${image.caption}</figcaption>` : ''}
+      </figure>
       `;
 
-    // <figcaption>MDN Logo</figcaption>
     gallery.insertAdjacentHTML('beforeend', html);
   });
 
   return data;
 }
 
-getData().then((data) => console.log(data));
+getData();

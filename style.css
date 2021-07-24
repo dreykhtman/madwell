@@ -1,6 +1,8 @@
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit; }
 
 body {
@@ -15,7 +17,8 @@ body {
 header {
   text-align: center;
   color: #0802ff;
-  width: 100%; }
+  width: 100%;
+  padding: 2rem; }
 
 section {
   display: flex;
@@ -37,10 +40,23 @@ section {
 footer {
   text-align: center;
   color: #008001;
-  width: 100vw; }
+  width: 100vw;
+  padding-top: 3rem; }
 
-.image {
-  object-fit: cover;
-  width: 150px;
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   height: 150px;
+  width: 150px;
   margin: 11px; }
+  figure .image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%; }
+  figure figcaption {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem; }
