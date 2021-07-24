@@ -1,7 +1,6 @@
 async function getData() {
   const response = await fetch(
-    'https://jsonplaceholder.typicode.com/photos?_limit=15'
-    // 'https://www.madwell.com/interview/index.php?f=data'
+    'https://www.madwell.com/interview/index.php?f=data'
   );
 
   if (!response.ok) {
@@ -9,13 +8,12 @@ async function getData() {
   }
 
   const data = await response.json();
-
   const gallery = document.getElementById('gallery');
 
   data.forEach((image) => {
     const html = `
       <figure>
-        <img class="image" src="${image.url}" alt="${image.alt}" />
+        <img class="image" src="${image.path}" alt="${image.alt}" />
         ${image.caption ? `<figcaption>${image.caption}</figcaption>` : ''}
       </figure>
       `;
