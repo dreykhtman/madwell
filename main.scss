@@ -1,3 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
-  background-color: lightsteelblue;
+  max-width: 1250px;
+  margin: auto;
+  background-color: #eaeaea;
+  font-size: 2.8rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  color: #0802ff;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  width: 100%;
+
+  .text {
+    display: flex;
+    align-items: center;
+
+    width: 50%;
+    text-align: right;
+    padding: 2rem;
+  }
+
+  #gallery {
+    position: relative;
+    width: 50%;
+    background-color: white;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+footer {
+  text-align: center;
+  color: #008001;
+  width: 100vw;
+}
+
+.image {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  margin: 11px;
 }
