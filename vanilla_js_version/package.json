@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "watch": "node-sass -w main.scss style.css"
+    "watch": "node-sass -w main.scss public/style.css"
   },
   "repository": {
     "type": "git",
