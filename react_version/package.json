@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,5 +44,5 @@
   "resolutions": {
     "styled-components": "^5"
   },
-  "homepage": "https://dreykhtman.github.io/"
+  "homepage": "https://dreykhtman.github.io/madwell-react"
 }
