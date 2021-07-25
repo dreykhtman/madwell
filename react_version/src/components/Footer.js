@@ -2,9 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.footer`
+  grid-column-start: first;
+  grid-column-end: last;
+
   text-align: center;
   color: #008001;
-  width: 100vw;
   padding-top: 3rem;
   padding-bottom: 3rem;
 `;

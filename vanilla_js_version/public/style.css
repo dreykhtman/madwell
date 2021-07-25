@@ -31,18 +31,18 @@ section {
     width: 50%;
     text-align: right;
     padding: 2rem; }
-    @media (max-width: 375px) {
+    @media only screen and (max-width: 375px) {
       section .text {
         width: 100%; } }
   section #gallery {
     position: relative;
     width: 50%;
     background-color: white;
-    padding: 0.5rem 0 0.5rem 0;
+    padding: 0.7rem 0 0.7rem 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
-    @media (max-width: 375px) {
+    @media only screen and (max-width: 375px) {
       section #gallery {
         width: 100%; } }
 
