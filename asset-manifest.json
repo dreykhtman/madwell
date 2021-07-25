@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/madwell/react_version/static/css/main.d4a074bc.chunk.css",
-    "main.js": "/madwell/react_version/static/js/main.520fc17c.chunk.js",
-    "main.js.map": "/madwell/react_version/static/js/main.520fc17c.chunk.js.map",
-    "runtime-main.js": "/madwell/react_version/static/js/runtime-main.e420f68c.js",
-    "runtime-main.js.map": "/madwell/react_version/static/js/runtime-main.e420f68c.js.map",
-    "static/js/2.ef97bfee.chunk.js": "/madwell/react_version/static/js/2.ef97bfee.chunk.js",
-    "static/js/2.ef97bfee.chunk.js.map": "/madwell/react_version/static/js/2.ef97bfee.chunk.js.map",
-    "index.html": "/madwell/react_version/index.html",
-    "static/css/main.d4a074bc.chunk.css.map": "/madwell/react_version/static/css/main.d4a074bc.chunk.css.map",
-    "static/js/2.ef97bfee.chunk.js.LICENSE.txt": "/madwell/react_version/static/js/2.ef97bfee.chunk.js.LICENSE.txt"
+    "main.css": "/madwell/static/css/main.d4a074bc.chunk.css",
+    "main.js": "/madwell/static/js/main.520fc17c.chunk.js",
+    "main.js.map": "/madwell/static/js/main.520fc17c.chunk.js.map",
+    "runtime-main.js": "/madwell/static/js/runtime-main.c522d165.js",
+    "runtime-main.js.map": "/madwell/static/js/runtime-main.c522d165.js.map",
+    "static/js/2.6a084e18.chunk.js": "/madwell/static/js/2.6a084e18.chunk.js",
+    "static/js/2.6a084e18.chunk.js.map": "/madwell/static/js/2.6a084e18.chunk.js.map",
+    "index.html": "/madwell/index.html",
+    "static/css/main.d4a074bc.chunk.css.map": "/madwell/static/css/main.d4a074bc.chunk.css.map",
+    "static/js/2.6a084e18.chunk.js.LICENSE.txt": "/madwell/static/js/2.6a084e18.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e420f68c.js",
-    "static/js/2.ef97bfee.chunk.js",
+    "static/js/runtime-main.c522d165.js",
+    "static/js/2.6a084e18.chunk.js",
     "static/css/main.d4a074bc.chunk.css",
     "static/js/main.520fc17c.chunk.js"
   ]
